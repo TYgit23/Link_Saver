@@ -1,0 +1,31 @@
+{
+  "topics": [
+    {
+      "id": "1",
+      "name": "טכנולוגיה",
+      "subtopics": [
+        {
+          "id": "1.1",
+          "name": "תכנות",
+          "links": [
+            {
+              "id": "1.1.1",
+              "url": "https://www.example.com/python-tutorial",
+              "title": "מדריך Python למתחילים",
+              "description": "מדריך מקיף ללימוד Python",
+              "dateAdded": "2024-07-17T10:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "user1",
+      "username": "john_doe",
+      "email": "john@example.com",
+      "savedTopics": ["1"]
+    }
+  ]
+}

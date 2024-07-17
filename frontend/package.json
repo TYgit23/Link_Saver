@@ -1,0 +1,22 @@
+{
+  "name": "link-manager",
+  "version": "1.0.0",
+  "description": "Link manager application",
+  "main": "src/index.tsx",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.2",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "ts-loader": "^8.0.18",
+    "html-webpack-plugin": "^5.3.1"
+  }
+}
